@@ -1,0 +1,93 @@
+.sidebar{
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: rgb(29, 29, 29);
+  padding-top: 5px;
+}
+
+.sidebar-link{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px 10px 10px 5px;
+}
+
+.followed-channels{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-right: -5px;
+}
+
+.your-following{
+  display: flex;
+  align-items: center;
+}
+
+.your-following div{
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
+.your-following img{
+  height: 30px;
+  cursor: pointer;
+}
+
+.profile-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.twitch-name{
+  padding-left: 7px;
+}
+
+.sidebar-link img{
+  height: 30px;
+  margin: 0;
+  margin-left: 5px;
+}
+
+
+.sidebar-link div{
+  font-size: 13px;
+}
+
+.sidebar-link:hover{
+  background-color:  rgb(43, 43, 43);
+  cursor: pointer;
+}
+
+.view-count{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-count img{
+  margin-top: 3px;
+}
+
+.show-more{
+  padding-top: 10px;
+  padding-left: 10px;
+  color: rgb(189, 44, 233);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.recommended-ch{
+  margin-top: 10px;
+  padding-right: 15px;
+  font-size: 10px
+}

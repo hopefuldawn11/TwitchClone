@@ -1,0 +1,67 @@
+.video-flexbox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  position: relative;
+}
+
+.video-preview,
+.video-preview img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: lightcoral;
+}
+
+.video-preview img{
+  width: 100%;
+}
+
+.video-detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  position: relative;
+  top: 750px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 980px;
+}
+
+.video-name{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(29, 29, 29);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+}
+
+.twitch-profile{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  margin-left: 20px;
+}
+
+
+.twitch-profile img{
+  height: 90px;
+}
+
+
+
+
+

@@ -1,0 +1,103 @@
+body{
+  height: 2000px;
+}
+
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div1{
+  background-color: lightblue;
+}
+
+.div2{
+  background-color: lightcoral;
+}
+
+.flexbox2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.div3{
+  background-color: lightblue;
+  width: 100px;
+}
+
+.div4{
+  background-color: lightcoral;
+  flex: 1;
+}
+
+.flexbox3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.div5{
+  background-color: lightblue;
+  width: 100px;
+}
+
+.div6{
+  background-color: lightcoral;
+  flex: 1;
+}
+.div7{
+  background-color: lightseagreen;
+  flex: 2;
+}
+
+.flexbox4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgb(119, 119, 119);
+  height: 100px;
+  margin-top: 10px;
+}
+
+.div8{
+  background-color: lightblue;
+  width: 100px;
+}
+
+.div9{
+  background-color: lightcoral;
+  width: 100px;
+}
+
+.div10{
+  background-color: lightseagreen;
+  width: 100px;
+}
+
+.flexbox5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(119, 119, 119);
+  height: 100px;
+  margin-top: 10px;
+}
+
+.div11{
+  background-color: lightblue;
+  width: 100px;
+}
+
+.div12{
+  background-color: lightcoral;
+  width: 100px;
+}
+
+.div13{
+  background-color: lightseagreen;
+  width: 100px;
+}
